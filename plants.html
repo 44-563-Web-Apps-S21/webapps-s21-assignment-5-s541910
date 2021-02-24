@@ -9,6 +9,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .table-hover tbody tr:hover td,
+        .table-hover tbody tr:hover th {
+            background-color: #f08a0e;
+        }
+    </style>
 </head>
 
 <body>
@@ -38,8 +44,8 @@
 
         <div class="container">
             <img src="images/lilly.jpg" alt="lily" class="img-fluid" width="300px" height="300px">
-                <img src="images/lotus.jpg" alt="lotus" class="img-fluid" width="300px" height="300px">
-                <img src="images/vaccinium.jpg" alt="vaccinium" class="img-fluid" width="300px" height="300px">
+            <img src="images/lotus.jpg" alt="lotus" class="img-fluid" width="300px" height="300px">
+            <img src="images/vaccinium.jpg" alt="vaccinium" class="img-fluid" width="300px" height="300px">
 
         </div>
         <br>
@@ -48,6 +54,55 @@
             <img src="images/lotus.jpg" alt="lotus" class="img-thumbnail" width="300px" height="300px">
             <img src="images/vaccinium.jpg" alt="vaccinium" class="img-thumbnail" width="300px" height="300px">
         </div>
+        <br>
+        <table class="table table-striped table-bordered table-hover">
+            <thead>
+                <tr class="table-success">
+                    <th scope="col">Letter</th>
+                    <th scope="col">Plant</th>
+                    <th scope="col">City</th>
+                    <th scope="col">Food</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-primary">
+                    <th scope="row">g</th>
+                    <td>Geranium</td>
+                    <td>Galesburg</td>
+                    <td>Grapefruit</td>
+                </tr>
+                <tr>
+                    <th scope="row">a</th>
+                    <td>Acacia</td>
+                    <td>Alcorisa</td>
+                    <td>apple</td>
+                </tr>
+                <tr class="table-primary">
+                    <th scope="row">n</th>
+                    <td>Nemesia</td>
+                    <td>Nipawin</td>
+                    <td>nuts</td>
+                </tr>
+                <tr>
+                    <th scope="row">g</th>
+                    <td>Gaura</td>
+                    <td>Greensburg</td>
+                    <td>garlic</td>
+                </tr>
+                <tr class="table-primary">
+                    <th scope="row">i</th>
+                    <td>impatiens</td>
+                    <td>Ipkhi</td>
+                    <td>iceberg</td>
+                </tr>
+                <tr>
+                    <th scope="row">d</th>
+                    <td>dusty miller</td>
+                    <td>Deland</td>
+                    <td>dill</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
 
